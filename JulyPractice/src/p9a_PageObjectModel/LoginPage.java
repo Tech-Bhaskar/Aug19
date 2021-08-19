@@ -23,7 +23,7 @@ public class LoginPage {
 	@FindBy(name="pwd") private WebElement pwTB;
 	@FindBy(xpath="//div[text()='Login ']") private WebElement loginBTN;
 	@FindBy(xpath="//span[contains(text(),'invalid')]") private WebElement errMsg;
-	
+	//comment added for github
 	public LoginPage(WebDriver driver){
 		PageFactory.initElements(driver,this);
 	}
