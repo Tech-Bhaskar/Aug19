@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Google]]>
+    </line>
+    <line>
+      <![CDATA[Google]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26134" started-at="2021-08-12T21:36:14 IST" finished-at="2021-08-12T21:36:40 IST">
+    <groups>
+    </groups>
+    <test name="TestGC" duration-ms="20725" started-at="2021-08-12T21:36:14 IST" finished-at="2021-08-12T21:36:34 IST">
+      <class name="p5.Demo2_1">
+        <test-method status="PASS" signature="testA(java.lang.String,java.lang.String)[pri:0, instance:p5.Demo2_1@1c3a4799]" name="testA" duration-ms="20671" started-at="2021-08-12T21:36:14 IST" finished-at="2021-08-12T21:36:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:4444/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Google]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testA -->
+      </class> <!-- p5.Demo2_1 -->
+    </test> <!-- TestGC -->
+    <test name="TestFF" duration-ms="26134" started-at="2021-08-12T21:36:14 IST" finished-at="2021-08-12T21:36:40 IST">
+      <class name="p5.Demo2_1">
+        <test-method status="PASS" signature="testA(java.lang.String,java.lang.String)[pri:0, instance:p5.Demo2_1@3dfc5fb8]" name="testA" duration-ms="26090" started-at="2021-08-12T21:36:14 IST" finished-at="2021-08-12T21:36:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:4444/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Google]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testA -->
+      </class> <!-- p5.Demo2_1 -->
+    </test> <!-- TestFF -->
+  </suite> <!-- Suite -->
+</testng-results>
